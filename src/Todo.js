@@ -18,8 +18,7 @@ class Todo extends Component {
                     {textDecoration: 'none'} }>{this.props.name}</h5>
                <div className="btn">
                 <i className="fa fa-pencil-square" />
-                <button>Edit</button>
-                <button>Remove</button>
+                <i className="fa fa-trash" />
                 </div>
 
             </div>

@@ -18,7 +18,7 @@
   padding-right: 2em ;
 }
 
-.btn button{
-    border: none ;
-  background: none;
+.btn i {
+    padding: 0px 3px 0px 3px;
+    cursor: pointer;
 }
