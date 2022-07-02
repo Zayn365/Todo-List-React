@@ -5,7 +5,7 @@ import Todo from "./Todo";
 class Todoform extends Component {
 
     state = {
-        task: ""
+        task: []
     }
 
     onChange = (evt) => {

@@ -1,0 +1,24 @@
+.main-todo {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: relative;
+    width: 30vw;
+    background-color: rgb(126 129 129 / 10%);
+}
+
+.main-todo h5 {
+    padding-left: 2em;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em ;
+}
+
+.btn button{
+    border: none ;
+  background: none;
+}
