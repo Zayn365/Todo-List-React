@@ -5,6 +5,7 @@
     position: relative;
     width: 30vw;
     background-color: rgb(126 129 129 / 10%);
+    cursor: pointer;
 }
 
 .main-todo h5 {
