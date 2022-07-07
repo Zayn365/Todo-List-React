@@ -54,9 +54,9 @@ class Todo extends Component {
         else {
           result = 
                <>
-               <h5 onDoubleClick={this.remainderClick} style={!this.state.remainder ? 
+               <ul><li className={!this.state.remainder ? "Todo completed" : "Todo-task"} onDoubleClick={this.remainderClick} style={!this.state.remainder ? 
                 {textDecoration: 'line-through'} :
-                {textDecoration: 'none'} }>{this.state.task}</h5>
+                {textDecoration: 'none'} }>{this.state.task}</li></ul>
                 <div className="btn">
                 <i onClick={this.btnEdit} className="fa fa-pencil-square" />
                 <i onClick={this.props.remove} className="fa fa-trash" />
@@ -64,7 +64,7 @@ class Todo extends Component {
                 </>
         }
         return (
-            <div className="main-todo">
+            <div className="Todo" onDoubleClick={this.remainderClick}>
                 {result}
             </div>
         )

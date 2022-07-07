@@ -41,8 +41,9 @@ class Todolist extends Component {
         />)
      })
         return (
-            <div className="main">
-                <h1>TODO LIST</h1>
+            <div className="TodoList">
+                <h1>TODO LIST <span>A Simple Todo Application!</span></h1>
+                
                  <Todoform create={this.createTodo} list={yes}/>
             </div>
         )

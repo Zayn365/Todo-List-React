@@ -27,7 +27,7 @@ class Todoform extends Component {
     render() {
         
         return (
-            <div>
+            <div className="NewTodoForm">
                 {this.props.list}
                 <form onSubmit={this.onSubmit}>
                     <div>
