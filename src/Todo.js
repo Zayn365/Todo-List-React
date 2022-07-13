@@ -55,9 +55,9 @@ class Todo extends Component {
           result = 
                <>
                <ul><li className={!this.state.remainder ? "Todo completed" : "Todo-task"} onDoubleClick={this.remainderClick} style={!this.state.remainder ? 
-                {textDecoration: 'line-through'} :
+                 {textDecoration: 'line-through' ,background: 'none'} :
                 {textDecoration: 'none'} }>{this.state.task}</li></ul>
-                <div className="btn">
+                <div className="Todo-buttons">
                 <i onClick={this.btnEdit} className="fa fa-pencil-square" />
                 <i onClick={this.props.remove} className="fa fa-trash" />
                 </div>

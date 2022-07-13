@@ -47,7 +47,7 @@
     margin-left: auto;
   }
   
-  .Todo-buttons button {
+  .Todo-buttons i {
     border: none;
     font-size: 1em;
     margin: 0.4em;
@@ -57,7 +57,7 @@
     color: #fff;
   }
   
-  . {
+  .Todo-edit-form {
     display: flex;
     flex-wrap: wrap;
   }
@@ -94,3 +94,7 @@
     height: 3rem;
   }
   
+  .Todo-edit-form input{
+    background-color: #f7f1f19d;
+    transition: ease-out 300ms;
+  }

@@ -11,10 +11,14 @@
   .NewTodoForm input {
     flex-grow: 1;
     border: none;
-    background: #f7f1f1;
+    background: white;
     padding: 0 1.5em;
     font-size: initial;
     outline: none;
+  }
+  .NewTodoForm input:hover {
+    background-color: #f7f1f19d;
+    transition: ease-out 300ms;
   }
   .NewTodoForm button {
     padding: 0 1.3rem;
