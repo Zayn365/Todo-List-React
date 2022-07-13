@@ -57,7 +57,7 @@
     color: #fff;
   }
   
-  .Todo-edit-form {
+  . {
     display: flex;
     flex-wrap: wrap;
   }
